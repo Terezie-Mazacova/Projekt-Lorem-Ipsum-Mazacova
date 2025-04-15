@@ -2,6 +2,8 @@
 @import "partials/mixins";
 @import "partials/variables";
 
+@import "components/header";
+
 
 
 
@@ -17,4 +19,8 @@
 
 body {
     font-family: "Alegreya Sans", sans-serif;
+    background-color: $terracota;
+    max-width: 120rem;
+    margin: 0 auto;
+    position: relative;
 }
