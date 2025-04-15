@@ -1,0 +1,25 @@
+// == HEADINGS == 
+@mixin heading {
+    font-size: 13.75rem;
+}
+
+@mixin  sub-heading {
+    font-size: 4.375rem;
+}
+
+// == PARAGRAPHS ==
+@mixin text-large {
+    font-size: 2.75rem;
+}
+
+@mixin text-medium-large {
+    font-size: 2.125rem;
+}
+
+@mixin text-medium {
+    font-size: 1.375rem;
+}
+
+@mixin text-small {
+    font-size: 1.25rem;
+}
