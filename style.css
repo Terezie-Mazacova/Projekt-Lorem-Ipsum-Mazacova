@@ -85,10 +85,10 @@
 }
 
 .section-lorem-ipsum {
-  padding: 251px 60px 251px 363px;
+  padding: 251px 60px 0 363px;
 }
 .section-lorem-ipsum .header-lorem-ipsum {
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 .section-lorem-ipsum .header-lorem-ipsum h1 {
   font-size: 4.375rem;
@@ -105,6 +105,9 @@
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
   margin-bottom: 187px;
+}
+.section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image img {
+  width: 100%;
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper {
   display: flex;
@@ -126,6 +129,40 @@
   color: #FFEADA;
   line-height: 160%;
   max-width: 32rem;
+}
+.section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-img img {
+  width: 100%;
+}
+
+.section-fusce-tellus {
+  padding: 251px 60px 0 60px;
+}
+.section-fusce-tellus .header-fusce-tellus {
+  padding-left: 303px;
+  margin-bottom: 100px;
+}
+.section-fusce-tellus .header-fusce-tellus h2 {
+  font-size: 4.375rem;
+  color: #FFEADA;
+  font-weight: 400;
+  max-width: 69.875rem;
+  margin-bottom: 4.5rem;
+}
+.section-fusce-tellus .header-fusce-tellus p {
+  font-size: 1.375rem;
+  color: #FFEADA;
+  line-height: 160%;
+  max-width: 32rem;
+}
+.section-fusce-tellus .container-fusce-telllus {
+  display: flex;
+  gap: 18px;
+}
+.section-fusce-tellus .container-fusce-telllus .image-box-squirrell img {
+  width: 100%;
+}
+.section-fusce-tellus .container-fusce-telllus .image-box-wolf img {
+  width: 100%;
 }
 
 *, *::before, *::after {

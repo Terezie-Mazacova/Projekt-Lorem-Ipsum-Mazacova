@@ -1,10 +1,10 @@
 // == LOREM IPSUM SECTION ==
 .section-lorem-ipsum {
-    padding: 251px 60px 251px 363px;
+    padding: 251px 60px 0 363px;
 
     .header-lorem-ipsum {
-        margin-bottom: 75px;
-        
+        margin-bottom: 100px;
+
         h1 {
             @include sub-heading
         }
@@ -17,6 +17,10 @@
     .lorem-ipsum-main {
         .lorem-ipsum-image {
             margin-bottom: 187px;
+
+            img {
+                width: 100%;
+            }
         }
 
         .lorem-ipsum-wrapper {
@@ -36,6 +40,47 @@
                 p {
                     @include text-base;
                 }
+            }
+
+            .lorem-ipsum-img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// == FUSCE TELLUS SECTION ==
+.section-fusce-tellus {
+    padding: 251px 60px 0 60px;
+
+    .header-fusce-tellus {
+        padding-left: 303px;
+        margin-bottom: 100px;
+
+        h2 {
+            @include sub-heading;
+        }
+
+        p {
+            @include text-base
+        }
+    }
+
+    .container-fusce-telllus {
+        display: flex;
+        gap: 18px;
+
+        .image-box-squirrell {
+            img {
+                width: 100%;
+            }
+        }
+
+        .image-box-wolf {
+            img {
+                width: 100%;
             }
         }
     }
