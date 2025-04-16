@@ -1,0 +1,42 @@
+// == LOREM IPSUM SECTION ==
+.section-lorem-ipsum {
+    padding: 251px 60px 251px 363px;
+
+    .header-lorem-ipsum {
+        margin-bottom: 75px;
+        
+        h1 {
+            @include sub-heading
+        }
+
+        p {
+            @include text-base;
+        }
+    }
+
+    .lorem-ipsum-main {
+        .lorem-ipsum-image {
+            margin-bottom: 187px;
+        }
+
+        .lorem-ipsum-wrapper {
+            display: flex;
+            gap: 143px;
+
+            .lorem-ipsum-text-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h2 {
+                    @include base-heading;
+                    margin-bottom: 34px;
+                }
+
+                p {
+                    @include text-base;
+                }
+            }
+        }
+    }
+}

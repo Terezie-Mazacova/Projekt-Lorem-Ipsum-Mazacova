@@ -83,6 +83,51 @@
   margin: 0 auto;
   text-decoration: none;
 }
+
+.section-lorem-ipsum {
+  padding: 251px 60px 251px 363px;
+}
+.section-lorem-ipsum .header-lorem-ipsum {
+  margin-bottom: 75px;
+}
+.section-lorem-ipsum .header-lorem-ipsum h1 {
+  font-size: 4.375rem;
+  color: #FFEADA;
+  font-weight: 400;
+  max-width: 69.875rem;
+  margin-bottom: 4.5rem;
+}
+.section-lorem-ipsum .header-lorem-ipsum p {
+  font-size: 1.375rem;
+  color: #FFEADA;
+  line-height: 160%;
+  max-width: 32rem;
+}
+.section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
+  margin-bottom: 187px;
+}
+.section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper {
+  display: flex;
+  gap: 143px;
+}
+.section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
+  font-size: 2.75rem;
+  font-weight: 400;
+  color: #FFEADA;
+  margin-bottom: 34px;
+}
+.section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block p {
+  font-size: 1.375rem;
+  color: #FFEADA;
+  line-height: 160%;
+  max-width: 32rem;
+}
+
 *, *::before, *::after {
   padding: 0;
   margin: 0;

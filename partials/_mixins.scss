@@ -3,8 +3,18 @@
     font-size: 13.75rem;
 }
 
-@mixin  sub-heading {
+@mixin sub-heading {
     font-size: 4.375rem;
+    color: $peach;
+    font-weight: 400;
+    max-width: 69.875rem;
+    margin-bottom: 4.5rem;
+}
+
+@mixin base-heading {
+    font-size: 2.75rem;
+    font-weight: 400;
+    color: $peach;
 }
 
 // == PARAGRAPHS ==
@@ -22,4 +32,11 @@
 
 @mixin text-small {
     font-size: 1.25rem;
+}
+
+@mixin text-base {
+    font-size: 1.375rem;
+    color: $peach;
+    line-height: 160%;
+    max-width: 32rem;
 }
