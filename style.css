@@ -9,6 +9,13 @@
   align-items: center;
   gap: 17px;
 }
+.header-content .btn-container p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 120%;
+  color: #FFEADA;
+  z-index: 99;
+}
 .header-content .btn-container .hamburger {
   position: relative;
   display: block;
@@ -50,7 +57,7 @@
   display: flex;
   flex-direction: column;
   z-index: 20;
-  background-color: black;
+  background-color: #363D3B;
   transition: 1s;
   padding: 9.375rem 1.25rem 0 1.25rem;
   white-space: nowrap;
@@ -60,17 +67,21 @@
 }
 .header-content .btn-container .mobile-nav ul li {
   list-style-type: none;
+  padding-bottom: 46px;
+}
+.header-content .btn-container .mobile-nav ul li:last-child {
+  padding-bottom: 0;
 }
 .header-content .btn-container .mobile-nav ul li a {
   display: block;
   width: 100%;
   max-width: 12.5rem;
+  font-size: 2.125rem;
   font-weight: 400;
-  padding: 0.875rem 1.5rem;
+  color: #FFEADA;
   transition: background-color 0.3s;
   margin: 0 auto;
   text-decoration: none;
-  text-transform: uppercase;
 }
 *, *::before, *::after {
   padding: 0;

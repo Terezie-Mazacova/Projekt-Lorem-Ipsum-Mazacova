@@ -9,7 +9,13 @@
         align-items: center;
         gap: 17px;
 
-
+        p {
+            @include text-small;
+            font-weight: 500;
+            line-height: 120%;
+            color: $peach;
+            z-index: 99;
+        }
 
         // == HAMBURGER MENU 
         .hamburger {
@@ -56,7 +62,7 @@
             display: flex;
             flex-direction: column;
             z-index: 20;
-            background-color: black; //temporary
+            background-color: $charcoal;
             transition: 1s;
             padding: 9.375rem 1.25rem 0 1.25rem;
             white-space: nowrap;
@@ -68,27 +74,29 @@
             ul {
                 li {
                     list-style-type: none;
+                    padding-bottom: 46px;
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
                     a {
                         display: block;
                         width: 100%;
                         max-width: 12.5rem;
-                        //@include text-small;
+                        @include text-medium-large;
                         font-weight: 400;
-                        //line-height: $line-height;
-                        //color: $grey-15;
-                        padding: .875rem 1.5rem;
+                        color: $peach;
+                        
                         transition: background-color 0.3s;
                         margin: 0 auto;
                         text-decoration: none;
-                        text-transform: uppercase;
 
                         &:hover {
-                            //border-radius: $radius-8;
-                            //background-color: $white-95;
+                            //background-color: ; temporary
                         }
                     }
                 }
-                
             }
         }
     }
