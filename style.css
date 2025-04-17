@@ -98,11 +98,31 @@
   max-width: 69.875rem;
   margin-bottom: 4.5rem;
 }
+@media (max-width: 767px) {
+  .section-lorem-ipsum .header-lorem-ipsum h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-lorem-ipsum .header-lorem-ipsum h1 {
+    font-size: 50px;
+  }
+}
 .section-lorem-ipsum .header-lorem-ipsum p {
   font-size: 1.375rem;
   color: #FFEADA;
   line-height: 160%;
   max-width: 32rem;
+}
+@media (max-width: 767px) {
+  .section-lorem-ipsum .header-lorem-ipsum p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  .section-lorem-ipsum .header-lorem-ipsum p {
+    max-width: unset;
+  }
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
   margin-bottom: 187px;
@@ -125,11 +145,26 @@
   color: #FFEADA;
   margin-bottom: 34px;
 }
+@media (max-width: 767px) {
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
+    font-size: 30px;
+  }
+}
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block p {
   font-size: 1.375rem;
   color: #FFEADA;
   line-height: 160%;
   max-width: 32rem;
+}
+@media (max-width: 767px) {
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block p {
+    max-width: unset;
+  }
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-img img {
   width: 100%;
@@ -150,11 +185,31 @@
   max-width: 69.875rem;
   margin-bottom: 4.5rem;
 }
+@media (max-width: 767px) {
+  .section-fusce-tellus .header-fusce-tellus h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-fusce-tellus .header-fusce-tellus h2 {
+    font-size: 50px;
+  }
+}
 .section-fusce-tellus .header-fusce-tellus p {
   font-size: 1.375rem;
   color: #FFEADA;
   line-height: 160%;
   max-width: 32rem;
+}
+@media (max-width: 767px) {
+  .section-fusce-tellus .header-fusce-tellus p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  .section-fusce-tellus .header-fusce-tellus p {
+    max-width: unset;
+  }
 }
 .section-fusce-tellus .container-fusce-telllus {
   display: flex;
@@ -182,11 +237,31 @@
   max-width: 69.875rem;
   margin-bottom: 4.5rem;
 }
+@media (max-width: 767px) {
+  .section-integer-tempor .header-integer-tempor h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-integer-tempor .header-integer-tempor h2 {
+    font-size: 50px;
+  }
+}
 .section-integer-tempor .header-integer-tempor p {
   font-size: 1.375rem;
   color: #FFEADA;
   line-height: 160%;
   max-width: 32rem;
+}
+@media (max-width: 767px) {
+  .section-integer-tempor .header-integer-tempor p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  .section-integer-tempor .header-integer-tempor p {
+    max-width: unset;
+  }
 }
 .section-integer-tempor .integer-tempor-layout {
   display: flex;
@@ -208,10 +283,68 @@
   max-width: 342px;
   margin-top: 100px;
 }
+@media (max-width: 767px) {
+  .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
+    max-width: unset;
+  }
+}
 .section-integer-tempor .integer-tempor-layout .integer-block-img-deer img {
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .section-lorem-ipsum {
+    padding: 80px 16px 0 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .section-lorem-ipsum {
+    padding: 160px 32px 0 32px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .section-lorem-ipsum .header-lorem-ipsum {
+    margin-bottom: 30px;
+  }
+  .section-lorem-ipsum .header-lorem-ipsum h1 {
+    margin-bottom: 30px;
+  }
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
+    margin-bottom: 60px;
+  }
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .section-lorem-ipsum {
+    padding: 200px 50px 0 50px;
+  }
+  .section-lorem-ipsum .header-lorem-ipsum {
+    margin-bottom: 50px;
+  }
+  .section-lorem-ipsum .header-lorem-ipsum h1 {
+    margin-bottom: 40px;
+  }
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
+    margin-bottom: 80px;
+  }
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper {
+    gap: 80px;
+  }
+  .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
+    margin-bottom: 25px;
+  }
+}
 *, *::before, *::after {
   padding: 0;
   margin: 0;

@@ -137,3 +137,76 @@
         }
     }
 }
+
+
+// == BREAKPOINTY ==
+@media screen and (max-width: 767px) {
+    .section-lorem-ipsum {
+        padding: 80px 16px 0 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section-lorem-ipsum {
+        padding: 160px 32px 0 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .section-lorem-ipsum {        
+        .header-lorem-ipsum {
+            margin-bottom: 30px;
+
+            h1 {
+                margin-bottom: 30px;
+            }
+        }
+
+        .lorem-ipsum-main {
+            .lorem-ipsum-image {
+                margin-bottom: 60px;
+            }
+
+            .lorem-ipsum-wrapper {
+                flex-direction: column;
+                gap: 50px;
+
+                .lorem-ipsum-text-block {
+                    h2 {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .section-lorem-ipsum {
+        padding: 200px 50px 0 50px;
+
+        .header-lorem-ipsum {
+            margin-bottom: 50px;
+
+            h1 {
+                margin-bottom: 40px;
+            }
+        }
+
+        .lorem-ipsum-main {
+            .lorem-ipsum-image {
+                margin-bottom: 80px;
+            }
+
+            .lorem-ipsum-wrapper {
+                gap: 80px;
+
+                .lorem-ipsum-text-block {
+                    h2 {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
