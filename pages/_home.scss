@@ -1,6 +1,9 @@
 // == LOREM IPSUM SECTION ==
 .section-lorem-ipsum {
+    position: relative;
     padding: 251px 60px 0 363px;
+
+    
 
     .header-lorem-ipsum {
         margin-bottom: 100px;
@@ -54,6 +57,7 @@
 // == FUSCE TELLUS SECTION ==
 .section-fusce-tellus {
     padding: 251px 60px 0 60px;
+    position: relative;
 
     .header-fusce-tellus {
         padding-left: 303px;
@@ -89,6 +93,7 @@
 // == INTEGER TEMPOR SECTION ==
 .section-integer-tempor {
     padding: 251px 60px 490px 60px;
+    position: relative;
 
     .header-integer-tempor {
         padding-left: 303px;

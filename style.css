@@ -85,6 +85,7 @@
 }
 
 .section-lorem-ipsum {
+  position: relative;
   padding: 251px 60px 0 363px;
 }
 .section-lorem-ipsum .header-lorem-ipsum {
@@ -136,6 +137,7 @@
 
 .section-fusce-tellus {
   padding: 251px 60px 0 60px;
+  position: relative;
 }
 .section-fusce-tellus .header-fusce-tellus {
   padding-left: 303px;
@@ -167,6 +169,7 @@
 
 .section-integer-tempor {
   padding: 251px 60px 490px 60px;
+  position: relative;
 }
 .section-integer-tempor .header-integer-tempor {
   padding-left: 303px;
@@ -221,6 +224,20 @@ body {
   max-width: 120rem;
   margin: 0 auto;
   position: relative;
+}
+
+.absolute-text {
+  position: absolute;
+  top: 115px;
+  left: 40px;
+  z-index: -1;
+  font-size: 13.75rem;
+}
+.absolute-text--dark {
+  color: #7B3929;
+}
+.absolute-text--light {
+  color: #98503E;
 }
 
 .abstract-motive {
