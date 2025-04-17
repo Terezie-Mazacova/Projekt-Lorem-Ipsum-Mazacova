@@ -301,9 +301,18 @@
   .section-lorem-ipsum {
     padding: 80px 16px 0 16px;
   }
+  .section-fusce-tellus {
+    padding: 80px 16px 0 16px;
+  }
+  .section-fusce-tellus .container-fusce-telllus {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .section-lorem-ipsum {
+    padding: 160px 32px 0 32px;
+  }
+  .section-fusce-tellus {
     padding: 160px 32px 0 32px;
   }
 }
@@ -324,6 +333,12 @@
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
     margin-bottom: 20px;
   }
+  .section-fusce-tellus .header-fusce-tellus {
+    margin-bottom: 30px;
+  }
+  .section-fusce-tellus .header-fusce-tellus h2 {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .section-lorem-ipsum {
@@ -343,6 +358,20 @@
   }
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
     margin-bottom: 25px;
+  }
+  .section-fusce-tellus {
+    padding: 200px 50px 0 50px;
+  }
+  .section-fusce-tellus .header-fusce-tellus {
+    margin-bottom: 50px;
+  }
+  .section-fusce-tellus .header-fusce-tellus h2 {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .section-fusce-tellus .header-fusce-tellus {
+    padding-left: 0;
   }
 }
 *, *::before, *::after {

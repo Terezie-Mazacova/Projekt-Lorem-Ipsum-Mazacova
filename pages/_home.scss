@@ -141,18 +141,35 @@
 
 // == BREAKPOINTY ==
 @media screen and (max-width: 767px) {
+    // == LOREM IPSUM SECTION ==
     .section-lorem-ipsum {
         padding: 80px 16px 0 16px;
+    }
+
+    // == FUSCE TELLUS SECTION ==
+    .section-fusce-tellus {
+        padding: 80px 16px 0 16px;
+
+        .container-fusce-telllus {
+            flex-direction: column;
+        }
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    // == LOREM IPSUM SECTION ==
     .section-lorem-ipsum {
+        padding: 160px 32px 0 32px;
+    }
+
+    // == FUSCE TELLUS SECTION ==
+    .section-fusce-tellus {
         padding: 160px 32px 0 32px;
     }
 }
 
 @media screen and (max-width: 1023px) {
+    // == LOREM IPSUM SECTION ==
     .section-lorem-ipsum {        
         .header-lorem-ipsum {
             margin-bottom: 30px;
@@ -179,9 +196,20 @@
             }
         }
     }
+
+    // == FUSCE TELLUS SECTION ==
+    .section-fusce-tellus {
+        .header-fusce-tellus {
+            margin-bottom: 30px;
+            h2 {
+                margin-bottom: 30px;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+    // == LOREM IPSUM SECTION ==
     .section-lorem-ipsum {
         padding: 200px 50px 0 50px;
 
@@ -207,6 +235,28 @@
                     }
                 }
             }
+        }
+    }
+
+// == FUSCE TELLUS SECTION ==
+    .section-fusce-tellus {
+        padding: 200px 50px 0 50px;
+
+        .header-fusce-tellus {
+            margin-bottom: 50px;
+
+            h2 {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    // == FUSCE TELLUS SECTION ==
+    .section-fusce-tellus{
+        .header-fusce-tellus {
+            padding-left: 0;
         }
     }
 }
