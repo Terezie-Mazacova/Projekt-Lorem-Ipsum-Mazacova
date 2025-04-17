@@ -307,6 +307,19 @@
   .section-fusce-tellus .container-fusce-telllus {
     flex-direction: column;
   }
+  .section-integer-tempor {
+    padding: 80px 16px;
+  }
+  .section-integer-tempor .integer-tempor-layout {
+    flex-direction: column;
+    gap: 0;
+  }
+  .section-integer-tempor .integer-tempor-layout .integer-block {
+    align-items: unset;
+  }
+  .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
+    margin: 30px 0;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .section-lorem-ipsum {
@@ -314,6 +327,12 @@
   }
   .section-fusce-tellus {
     padding: 160px 32px 0 32px;
+  }
+  .section-integer-tempor {
+    padding: 160px 32px;
+  }
+  .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -339,6 +358,12 @@
   .section-fusce-tellus .header-fusce-tellus h2 {
     margin-bottom: 30px;
   }
+  .section-integer-tempor .header-integer-tempor {
+    margin-bottom: 30px;
+  }
+  .section-integer-tempor .header-integer-tempor h2 {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .section-lorem-ipsum {
@@ -360,7 +385,7 @@
     margin-bottom: 25px;
   }
   .section-fusce-tellus {
-    padding: 200px 50px 0 50px;
+    padding: 200px 50px;
   }
   .section-fusce-tellus .header-fusce-tellus {
     margin-bottom: 50px;
@@ -368,9 +393,24 @@
   .section-fusce-tellus .header-fusce-tellus h2 {
     margin-bottom: 40px;
   }
+  .section-integer-tempor {
+    padding: 200px 50px 0 50px;
+  }
+  .section-integer-tempor .header-integer-tempor {
+    margin-bottom: 50px;
+  }
+  .section-integer-tempor .header-integer-tempor h2 {
+    margin-bottom: 40px;
+  }
+  .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 1440px) {
   .section-fusce-tellus .header-fusce-tellus {
+    padding-left: 0;
+  }
+  .section-integer-tempor .header-integer-tempor {
     padding-left: 0;
   }
 }

@@ -154,6 +154,23 @@
             flex-direction: column;
         }
     }
+
+    .section-integer-tempor {
+        padding: 80px 16px;
+
+        .integer-tempor-layout {
+            flex-direction: column;
+            gap: 0;
+
+            .integer-block {
+                align-items: unset;
+
+                .integer-block-text {
+                    margin: 30px 0;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -165,6 +182,18 @@
     // == FUSCE TELLUS SECTION ==
     .section-fusce-tellus {
         padding: 160px 32px 0 32px;
+    }
+
+    .section-integer-tempor {
+        padding: 160px 32px;
+
+        .integer-tempor-layout {
+            .integer-block {
+                .integer-block-text {
+                    margin-top: 40px;
+                }
+            }
+        }
     }
 }
 
@@ -206,6 +235,16 @@
             }
         }
     }
+
+    .section-integer-tempor {
+        .header-integer-tempor {
+            margin-bottom: 30px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -238,9 +277,9 @@
         }
     }
 
-// == FUSCE TELLUS SECTION ==
+    // == FUSCE TELLUS SECTION ==
     .section-fusce-tellus {
-        padding: 200px 50px 0 50px;
+        padding: 200px 50px;
 
         .header-fusce-tellus {
             margin-bottom: 50px;
@@ -250,12 +289,38 @@
             }
         }
     }
+
+    .section-integer-tempor {
+        padding: 200px 50px 0 50px;
+
+        .header-integer-tempor{
+            margin-bottom: 50px;
+
+            h2 {
+                margin-bottom: 40px;
+            }
+        }
+
+        .integer-tempor-layout {
+            .integer-block {
+                .integer-block-text {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1440px) {
     // == FUSCE TELLUS SECTION ==
     .section-fusce-tellus{
         .header-fusce-tellus {
+            padding-left: 0;
+        }
+    }
+
+    .section-integer-tempor {
+        .header-integer-tempor {
             padding-left: 0;
         }
     }
