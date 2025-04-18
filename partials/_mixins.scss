@@ -1,6 +1,10 @@
 // == HEADINGS == 
 @mixin heading {
     font-size: 13.75rem;
+
+    @media (max-width: 767px) {
+        font-size: 50px;
+    }
 }
 
 @mixin sub-heading {
@@ -28,6 +32,7 @@
         font-size: 30px;
     }
 }
+
 
 // == PARAGRAPHS ==
 @mixin text-large {
