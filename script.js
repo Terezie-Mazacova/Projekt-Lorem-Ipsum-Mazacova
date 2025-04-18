@@ -18,6 +18,8 @@ navLinks.forEach(link => {
     });
 });
 
+
+
 // === FOR SMOOTH SCROLL ==
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -28,6 +30,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
 
 
 // == EFFECT ==

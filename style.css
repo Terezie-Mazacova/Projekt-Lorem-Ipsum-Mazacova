@@ -1,13 +1,13 @@
 .header-content {
   display: flex;
   justify-content: flex-end;
-  padding: 24px 40px;
-  border-bottom: 1px solid #FFEADA;
+  padding: 1.5rem 2.5rem;
+  border-bottom: 0.0625rem solid #FFEADA;
 }
 .header-content .btn-container {
   display: flex;
   align-items: center;
-  gap: 17px;
+  gap: 1.0625rem;
 }
 .header-content .btn-container p {
   font-size: 1.25rem;
@@ -34,9 +34,9 @@
   content: "";
   display: block;
   width: 100%;
-  height: 1px;
+  height: 0.0625rem;
   background-color: #FFEADA;
-  margin: 6px 0;
+  margin: 0.375rem 0;
   transition: 0.4s;
   left: 0;
 }
@@ -61,7 +61,7 @@
   z-index: 20;
   background-color: #363D3B;
   transition: 1s;
-  padding: 128px 44px 0 74px;
+  padding: 8rem 2.75rem 0 4.625rem;
   white-space: nowrap;
 }
 .header-content .btn-container .mobile-nav.is-active {
@@ -69,7 +69,7 @@
 }
 .header-content .btn-container .mobile-nav ul li {
   list-style-type: none;
-  padding-bottom: 46px;
+  padding-bottom: 2.875rem;
 }
 .header-content .btn-container .mobile-nav ul li:last-child {
   padding-bottom: 0;
@@ -97,10 +97,10 @@
 }
 .section-lorem-ipsum {
   position: relative;
-  padding: 251px 60px 0 363px;
+  padding: 15.6875rem 3.75rem 0 22.6875rem;
 }
 .section-lorem-ipsum .header-lorem-ipsum {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 .section-lorem-ipsum .header-lorem-ipsum h1 {
   font-size: 4.375rem;
@@ -111,12 +111,12 @@
 }
 @media (max-width: 767px) {
   .section-lorem-ipsum .header-lorem-ipsum h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .section-lorem-ipsum .header-lorem-ipsum h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 }
 .section-lorem-ipsum .header-lorem-ipsum p {
@@ -127,7 +127,7 @@
 }
 @media (max-width: 767px) {
   .section-lorem-ipsum .header-lorem-ipsum p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 @media (max-width: 1023px) {
@@ -136,14 +136,14 @@
   }
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
-  margin-bottom: 187px;
+  margin-bottom: 11.6875rem;
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image img {
   width: 100%;
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper {
   display: flex;
-  gap: 143px;
+  gap: 8.9375rem;
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block {
   display: flex;
@@ -154,11 +154,11 @@
   font-size: 2.75rem;
   font-weight: 400;
   color: #FFEADA;
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
 }
 @media (max-width: 767px) {
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block p {
@@ -169,7 +169,7 @@
 }
 @media (max-width: 767px) {
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 @media (max-width: 1023px) {
@@ -182,12 +182,12 @@
 }
 
 .section-fusce-tellus {
-  padding: 251px 60px 0 60px;
+  padding: 15.6875rem 3.75rem 0 3.75rem;
   position: relative;
 }
 .section-fusce-tellus .header-fusce-tellus {
-  padding-left: 303px;
-  margin-bottom: 100px;
+  padding-left: 18.9375rem;
+  margin-bottom: 6.25rem;
 }
 .section-fusce-tellus .header-fusce-tellus h2 {
   font-size: 4.375rem;
@@ -198,12 +198,12 @@
 }
 @media (max-width: 767px) {
   .section-fusce-tellus .header-fusce-tellus h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .section-fusce-tellus .header-fusce-tellus h2 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 }
 .section-fusce-tellus .header-fusce-tellus p {
@@ -214,7 +214,7 @@
 }
 @media (max-width: 767px) {
   .section-fusce-tellus .header-fusce-tellus p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 @media (max-width: 1023px) {
@@ -224,7 +224,7 @@
 }
 .section-fusce-tellus .container-fusce-telllus {
   display: flex;
-  gap: 18px;
+  gap: 1.125rem;
 }
 .section-fusce-tellus .container-fusce-telllus .image-box-squirrell img {
   width: 100%;
@@ -234,12 +234,12 @@
 }
 
 .section-integer-tempor {
-  padding: 251px 60px 490px 60px;
+  padding: 15.6875rem 3.75rem 30.625rem 3.75rem;
   position: relative;
 }
 .section-integer-tempor .header-integer-tempor {
-  padding-left: 303px;
-  margin-bottom: 100px;
+  padding-left: 18.9375rem;
+  margin-bottom: 6.25rem;
 }
 .section-integer-tempor .header-integer-tempor h2 {
   font-size: 4.375rem;
@@ -250,12 +250,12 @@
 }
 @media (max-width: 767px) {
   .section-integer-tempor .header-integer-tempor h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .section-integer-tempor .header-integer-tempor h2 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 }
 .section-integer-tempor .header-integer-tempor p {
@@ -266,7 +266,7 @@
 }
 @media (max-width: 767px) {
   .section-integer-tempor .header-integer-tempor p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 @media (max-width: 1023px) {
@@ -276,7 +276,7 @@
 }
 .section-integer-tempor .integer-tempor-layout {
   display: flex;
-  gap: 18px;
+  gap: 1.125rem;
 }
 .section-integer-tempor .integer-tempor-layout .integer-block {
   display: flex;
@@ -291,12 +291,12 @@
   color: #FFEADA;
   line-height: 160%;
   max-width: 32rem;
-  max-width: 342px;
-  margin-top: 100px;
+  max-width: 21.375rem;
+  margin-top: 6.25rem;
 }
 @media (max-width: 767px) {
   .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 @media (max-width: 1023px) {
@@ -310,16 +310,16 @@
 
 @media screen and (max-width: 767px) {
   .section-lorem-ipsum {
-    padding: 80px 16px 0 16px;
+    padding: 5rem 1rem 0 1rem;
   }
   .section-fusce-tellus {
-    padding: 80px 16px 0 16px;
+    padding: 5rem 1rem 0 1rem;
   }
   .section-fusce-tellus .container-fusce-telllus {
     flex-direction: column;
   }
   .section-integer-tempor {
-    padding: 80px 16px;
+    padding: 5rem 1rem;
   }
   .section-integer-tempor .integer-tempor-layout {
     flex-direction: column;
@@ -329,92 +329,92 @@
     align-items: unset;
   }
   .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
-    margin: 30px 0;
+    margin: 1.875rem 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .section-lorem-ipsum {
-    padding: 160px 32px 0 32px;
+    padding: 10rem 2rem 0 2rem;
   }
   .section-fusce-tellus {
-    padding: 160px 32px 0 32px;
+    padding: 10rem 2rem 0 2rem;
   }
   .section-integer-tempor {
-    padding: 160px 32px;
+    padding: 10rem 2rem;
   }
   .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
 @media screen and (max-width: 1023px) {
   .section-lorem-ipsum .header-lorem-ipsum {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .section-lorem-ipsum .header-lorem-ipsum h1 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper {
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
   }
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .section-fusce-tellus .header-fusce-tellus {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .section-fusce-tellus .header-fusce-tellus h2 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .section-integer-tempor .header-integer-tempor {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .section-integer-tempor .header-integer-tempor h2 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .section-lorem-ipsum {
-    padding: 200px 50px 0 50px;
+    padding: 12.5rem 3.125rem 0 3.125rem;
   }
   .section-lorem-ipsum .header-lorem-ipsum {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .section-lorem-ipsum .header-lorem-ipsum h1 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-image {
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
   }
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper {
-    gap: 80px;
+    gap: 5rem;
   }
   .section-lorem-ipsum .lorem-ipsum-main .lorem-ipsum-wrapper .lorem-ipsum-text-block h2 {
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
   }
   .section-fusce-tellus {
-    padding: 200px 50px 0 50px;
+    padding: 12.5rem 3.125rem 0 3.125rem;
   }
   .section-fusce-tellus .header-fusce-tellus {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .section-fusce-tellus .header-fusce-tellus h2 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   .section-integer-tempor {
-    padding: 200px 50px;
+    padding: 12.5rem 3.125rem;
   }
   .section-integer-tempor .header-integer-tempor {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .section-integer-tempor .header-integer-tempor h2 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   .section-integer-tempor .integer-tempor-layout .integer-block .integer-block-text {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -431,24 +431,24 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Cyrene";
-  background-color: #AD6958;
-  max-width: 120rem;
-  margin: 0 auto;
-  position: relative;
-  letter-spacing: 1.5px;
-}
-
 @font-face {
   font-family: "Cyrene";
   src: url("./Cyrene+Regular+Advanced.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
+body {
+  font-family: "Cyrene";
+  background-color: #AD6958;
+  max-width: 120rem;
+  margin: 0 auto;
+  position: relative;
+  letter-spacing: 0.0938rem;
+}
+
 .hidden {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(6.25rem);
   transition: all 1s;
 }
 
@@ -459,14 +459,14 @@ body {
 
 .absolute-text {
   position: absolute;
-  top: 115px;
-  left: 40px;
+  top: 7.1875rem;
+  left: 2.5rem;
   z-index: -1;
   font-size: 13.75rem;
 }
 @media (min-width: 1024px) and (max-width: 1440px) {
   .absolute-text {
-    font-size: 140px;
+    font-size: 8.75rem;
   }
 }
 .absolute-text--dark {
@@ -509,6 +509,6 @@ body {
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .absolute-text {
-    left: 21px;
+    left: 1.3125rem;
   }
 }/*# sourceMappingURL=style.css.map */

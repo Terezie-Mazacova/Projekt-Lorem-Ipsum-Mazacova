@@ -7,20 +7,10 @@
 @import "pages/home";
 
 
-
 *, *::before, *::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: "Cyrene";
-    background-color: $terracota;
-    max-width: 120rem;
-    margin: 0 auto;
-    position: relative;
-    letter-spacing: 1.5px;
 }
 
 @font-face {
@@ -30,11 +20,21 @@ body {
     font-style: normal;
 }
 
+body {
+    font-family: "Cyrene";
+    background-color: $terracota;
+    max-width: 120rem;
+    margin: 0 auto;
+    position: relative;
+    letter-spacing: .0938rem;
+}
+
+
 
 // == CODE FOR SCROLL ANIMATION ==
 .hidden {
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(6.25rem);
     transition: all 1s;
 }
 
@@ -47,8 +47,8 @@ body {
 // == ABSOLUTE TEXT ==
 .absolute-text {
     position: absolute;
-    top: 115px;
-    left: 40px;
+    top: 7.1875rem;
+    left: 2.5rem;
     z-index: -1;
     @include heading;
     
@@ -96,15 +96,17 @@ body {
     }
 }
 
-
+// == BREAKPOINTY ==
 @media screen and (max-width: 1023px) {
+    // == ABSOLUTE TEXT ==
     .absolute-text {
         display: none;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+    // == ABSOLUTE TEXT ==
     .absolute-text {
-        left: 21px;
+        left: 1.3125rem;
     }
 }

@@ -1,13 +1,13 @@
 .header-content {
     display: flex;
     justify-content: flex-end;
-    padding: 24px 40px;
-    border-bottom: 1px solid $peach;
+    padding: 1.5rem 2.5rem;
+    border-bottom: .0625rem solid $peach;
 
     .btn-container {
         display: flex;
         align-items: center;
-        gap: 17px;
+        gap: 1.0625rem;
         
 
         p {
@@ -37,9 +37,9 @@
                 content: '';
                 display: block;
                 width: 100%;
-                height: 1px;
+                height: .0625rem;
                 background-color: $peach;
-                margin: 6px 0;
+                margin: .375rem 0;
                 transition: 0.4s;
                 left: 0;
             }
@@ -69,7 +69,7 @@
             z-index: 20;
             background-color: $charcoal;
             transition: 1s;
-            padding: 128px 44px 0 74px;
+            padding: 8rem 2.75rem 0 4.625rem;
             white-space: nowrap;
 
             &.is-active {
@@ -79,7 +79,7 @@
             ul {
                 li {
                     list-style-type: none;
-                    padding-bottom: 46px;
+                    padding-bottom: 2.875rem;
 
                     &:last-child {
                         padding-bottom: 0;
@@ -108,6 +108,7 @@
     }
 }
 
+// == BREAKPOINTY ==
 @media screen and (max-width: 767px) {
     .header-content {
         .btn-container {
