@@ -2,8 +2,8 @@
 @mixin heading {
     font-size: 13.75rem;
 
-    @media (max-width: 767px) {
-        font-size: 50px;
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        font-size: 140px;
     }
 }
 

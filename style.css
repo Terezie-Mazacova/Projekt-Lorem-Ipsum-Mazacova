@@ -28,6 +28,7 @@
   outline: none;
   border: none;
   z-index: 100;
+  overflow: hidden;
 }
 .header-content .btn-container .hamburger .bar, .header-content .btn-container .hamburger:after, .header-content .btn-container .hamburger:before {
   content: "";
@@ -40,13 +41,13 @@
   left: 0;
 }
 .header-content .btn-container .hamburger.is-active:before {
-  transform: rotate(306deg) translate(-0.25rem, 0.25rem);
+  transform: rotate(-45deg) translate(-0.125rem, 0.125rem);
 }
 .header-content .btn-container .hamburger.is-active:after {
-  transform: rotate(55deg) translate(-0.25rem, -0.25rem);
+  transform: rotate(45deg) translate(-0.125rem, -0.125rem);
 }
 .header-content .btn-container .hamburger.is-active .bar {
-  opacity: 0;
+  display: none;
 }
 .header-content .btn-container .mobile-nav {
   position: fixed;
@@ -395,7 +396,7 @@
     margin-bottom: 25px;
   }
   .section-fusce-tellus {
-    padding: 200px 50px;
+    padding: 200px 50px 0 50px;
   }
   .section-fusce-tellus .header-fusce-tellus {
     margin-bottom: 50px;
@@ -404,7 +405,7 @@
     margin-bottom: 40px;
   }
   .section-integer-tempor {
-    padding: 200px 50px 0 50px;
+    padding: 200px 50px;
   }
   .section-integer-tempor .header-integer-tempor {
     margin-bottom: 50px;
@@ -431,13 +432,20 @@
 }
 
 body {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Cyrene";
   background-color: #AD6958;
   max-width: 120rem;
   margin: 0 auto;
   position: relative;
+  letter-spacing: 1.5px;
 }
 
+@font-face {
+  font-family: "Cyrene";
+  src: url("./Cyrene+Regular+Advanced.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 .absolute-text {
   position: absolute;
   top: 115px;
@@ -445,9 +453,9 @@ body {
   z-index: -1;
   font-size: 13.75rem;
 }
-@media (max-width: 767px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
   .absolute-text {
-    font-size: 50px;
+    font-size: 140px;
   }
 }
 .absolute-text--dark {
@@ -459,6 +467,11 @@ body {
 
 .abstract-motive {
   position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 .abstract-motive::after {
   content: "";
@@ -476,4 +489,15 @@ body {
   height: auto;
   position: relative;
   z-index: -2;
+}
+
+@media screen and (max-width: 1023px) {
+  .absolute-text {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .absolute-text {
+    left: 21px;
+  }
 }/*# sourceMappingURL=style.css.map */

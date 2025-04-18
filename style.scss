@@ -15,11 +15,19 @@
 }
 
 body {
-    font-family: "Alegreya Sans", sans-serif;
+    font-family: "Cyrene";
     background-color: $terracota;
     max-width: 120rem;
     margin: 0 auto;
     position: relative;
+    letter-spacing: 1.5px;
+}
+
+@font-face {
+    font-family: 'Cyrene';
+    src: url('./Cyrene+Regular+Advanced.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 // == ABSOLUTE TEXT ==
@@ -43,6 +51,12 @@ body {
 // == ABSTRACT MOTIVE ON BODY ==
 .abstract-motive {
     position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+    z-index: -1;
+
     
     &::after {
         content: "";
@@ -65,5 +79,18 @@ body {
         height: auto;
         position: relative;
         z-index: -2;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .absolute-text {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .absolute-text {
+        left: 21px;
     }
 }
