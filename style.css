@@ -446,6 +446,17 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+.hidden {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .absolute-text {
   position: absolute;
   top: 115px;
